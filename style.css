@@ -1,0 +1,41 @@
+#results{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.movie-card{
+    min-width: 286px;
+    margin: 10px;
+    background-image: url("https://www.gtrk-vyatka.ru/uploads/posts/2022-10/1665586093_pascal-meier-1uvctvsn-2o-unsplash.jpg");
+}
+body{
+    /*background-image: url("https://im.kommersant.ru/Issues.photo/LifeStyle_Online/2019/10/24/KMO_111307_27311_1_t218_155124.jpg");*/
+    background-color: white;
+    background-size: 100%;
+}
+.card-title{
+    color: black;
+}
+.card-text{
+    color: black;
+}
+.range{
+    width: 95%;
+}
+.form-select{
+    width: 95%;
+}
+.filters{
+    background-image: url("https://lh3.googleusercontent.com/FF6BEq23oTceg97FvvYpoyExErwDDCkYSfBugYbC8lMnLVPns54Zgy6hAi1LqxQejUqvrQ2x9OESGKBQHlEARjCr_o4_bf_RwnM=s400");
+    background-size: 100%;
+    width: 250px;
+    height: 250px;
+    margin: 30px 0px 0px 30px;
+}
+.card-header{
+    font-size: 28px;
+    -webkit-text-stroke: 1px black;
+    color: white;
+    text-align: center;
+}
